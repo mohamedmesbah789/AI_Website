@@ -1,0 +1,208 @@
+*{
+    scroll-behavior:smooth;
+}
+html{
+    background-color: #ddd;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+
+}
+.Back{
+    background-color: #5c4;
+    color: #ddd;
+    padding: 10px;
+    margin: 25px;
+    border-radius: 5px ;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    text-decoration: none;
+    font-weight: bold;
+}
+.Back:hover{
+    color: white;
+}
+.nav{
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 3px 14px #959595;
+}
+.nav img{
+    position: absolute;
+    top: 4px;
+    left: 50px;
+}
+.ART1{
+    text-decoration: none;
+    color: #000000;
+}
+.ART1:hover{
+    color: rgb(219, 7, 7);
+}
+a:hover{
+    color: rgb(244, 130, 8);
+}
+.section{
+    direction: rtl;
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+ul{
+    line-height: 3;
+    font-size: 20px;
+}
+.div1{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.art_1{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Noto Sans Linear B', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+}
+.P{
+    padding-bottom: 10px;
+}
+.H{
+    text-align: center;
+    background-color: #ddd;
+    padding: 10px;
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.o{
+    text-shadow: 1px 0 0 rgb(229, 255, 0),
+    2px 0 0 blue,
+    3px 0 0 rgb(187, 0, 255);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    
+}
+.sp{
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+}
+.F{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px ;
+}
+.C{
+    color: aliceblue;
+}
+.b{
+    color: red;
+}
+.a1{
+    text-decoration: none;
+    color: #eee;
+    border-radius: 8px ;
+    padding: 15px;
+    font-size: 25px;
+}
+.reg,.login{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    background-color: gray;
+    color: #ddd;
+    padding: 10px;
+    margin: 25px;
+    border-radius: 5px ;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0px 3px 14px #959595;
+    width: 100px;
+}
+.login{
+    top: 80px;
+}
+
+.sec{
+    background-color: #ddd;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    outline: 10px  solid #ddd;
+    border-right: 10px solid red;
+    border-radius: 3px ;
+}
+.art{
+    width: 80%;
+    margin: auto;
+    text-align: right;
+    direction: rtl;
+}
+.art1,.art2,.art3,
+.art4,.art5{
+    background-color: #ddd;
+    width: 400px;   
+    padding: 10px;
+    margin: 10px;
+    outline: 10px  solid #ddd;
+    border-radius: 3px;
+}
+.art1{
+    border-right: 10px solid green;
+}
+.art2{
+    border-right: 10px solid blue;
+}
+.art3{
+    border-right: 10px solid yellow;
+}
+.art4{
+    border-right: 10px solid rgb(212, 0, 255);
+}
+.art5{
+    border-right: 10px solid rgb(0, 255, 234);
+}
+.contact{
+    color: white;
+    text-align: center;
+}
+.contact a:hover{
+    color: white;
+}
+.cont,.cont2,
+.cont3,.cont4{
+    text-decoration: none;
+    color: #ddd;
+    padding: 5px;
+    border-radius: 5px;  
+}
+.cont{
+    background-color: rgb(22, 71, 169);
+    letter-spacing: 4px;
+}
+.cont2{
+    background-color: rgb(243, 68, 115);
+    letter-spacing: 3px;
+}
+.cont3{
+    background-color: rgb(22, 0, 185);
+    letter-spacing: 4px;
+}
+.cont4{
+    background-color: rgb(0, 166, 187);
+    letter-spacing: 7px;
+}
